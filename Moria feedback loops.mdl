@@ -1,0 +1,126 @@
+{UTF-8}
+Arbeitskräfte Mithril  = A FUNCTION OF( Mithril Attraktivität,Mithril Profitabilität\
+		)
+	~	
+	~		|
+
+Arbeitskräfte sonstiges  = A FUNCTION OF( Arbeitskräfte Mithril)
+	~	
+	~		|
+
+Exportmenge  = A FUNCTION OF( Produktion Mithril)
+	~	
+	~		|
+
+Handelsbedarf  = A FUNCTION OF( Produktion sonstiges)
+	~	
+	~		|
+
+"Minentiefe/Abbaukosten"  = A FUNCTION OF( Produktion Mithril)
+	~	
+	~		|
+
+Mithril Attraktivität  = A FUNCTION OF( Handelsbedarf)
+	~	
+	~		|
+
+Mithril Profitabilität  = A FUNCTION OF( Exportmenge)
+	~	
+	~		|
+
+Produktion Mithril  = A FUNCTION OF( Arbeitskräfte Mithril,"Minentiefe/Abbaukosten")
+	~	
+	~		|
+
+Produktion sonstiges  = A FUNCTION OF( Arbeitskräfte sonstiges)
+	~	
+	~		|
+
+********************************************************
+	.Control
+********************************************************~
+		Simulation Control Parameters
+	|
+
+FINAL TIME  = 100
+	~	Year
+	~	The final time for the simulation.
+	|
+
+INITIAL TIME  = 0
+	~	Year
+	~	The initial time for the simulation.
+	|
+
+SAVEPER  = 
+        TIME STEP 
+	~	Year [0,?]
+	~	The frequency with which output is stored.
+	|
+
+TIME STEP  = 0.0625
+	~	Year [0,?]
+	~	The time step for the simulation.
+	|
+
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*View 1
+$-1--1--1,0,|12||-1--1--1|-1--1--1|-1--1--1|-1--1--1|-1--1--1|96,96,100,2
+10,1,Exportmenge,1100,524,57,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,2,Mithril Profitabilität,1176,348,48,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,3,Arbeitskräfte sonstiges,732,189,50,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,4,Arbeitskräfte Mithril,860,306,50,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,5,Produktion Mithril,960,447,46,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,6,Produktion sonstiges,584,314,46,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+1,7,2,4,1,0,43,0,0,192,0,-1--1--1,,1|(1036,264)|
+1,8,4,5,0,0,43,0,0,192,0,-1--1--1,,1|(0,0)|
+1,9,5,1,1,0,43,0,0,192,0,-1--1--1,,1|(1013,495)|
+1,10,3,6,1,0,43,0,0,192,0,-1--1--1,,1|(647,212)|
+10,11,Handelsbedarf,630,465,56,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+1,12,4,3,1,0,45,0,0,192,0,-1--1--1,,1|(819,218)|
+1,13,1,2,1,0,43,0,0,192,0,-1--1--1,,1|(1158,412)|
+12,14,0,1064,382,32,32,5,7,0,0,-1,0,0,0,0,0,0,0,0,0
+R1
+1,15,6,11,1,0,45,0,0,192,0,-1--1--1,,1|(590,365)|
+10,16,Mithril Attraktivität,760,423,46,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+1,17,11,16,1,0,43,0,0,192,0,-1--1--1,,1|(708,471)|
+12,18,0,712,322,36,36,5,7,0,0,-1,0,0,0,0,0,0,0,0,0
+R2
+1,19,16,4,1,0,43,0,0,192,0,-1--1--1,,1|(815,374)|
+10,20,"Minentiefe/Abbaukosten",933,683,63,26,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+1,21,5,20,1,0,43,0,0,192,0,-1--1--1,,1|(880,560)|
+1,22,20,5,1,0,45,0,0,192,0,-1--1--1,,1|(991,575)|
+12,23,0,941,566,33,33,5,7,0,0,-1,0,0,0,0,0,0,0,0,0
+B1
+///---\\\
+:L<%^E!@
+5:"Minentiefe/Abbaukosten"
+19:100,0
+24:0
+25:0
+26:0
+23:0
+15:0,0,0,0,0,0
+27:0,
+34:0,
+42:0
+72:0
+73:0
+95:0
+96:0
+97:0
+77:0
+78:0
+102:1
+93:0
+94:0
+92:0
+91:0
+90:0
+87:0
+75:
+43:
+103:8,8,8,3,8
+105:0,0,0,0,0,0,0,0,0,0
+104:Vensim Sans|12||0-0-0|0-0-0|-1--1--1|0-0-255|192-192-192|-1--1--1
